@@ -28,6 +28,8 @@ public class MyFirstStepDef {
 	}
 	@When("^user enters first name$")
 	public void method2(){
+		
+		
 		driver.findElement(By.name("firstname")).sendKeys("Simeon");
 	}
 	
